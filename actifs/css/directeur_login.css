@@ -1,0 +1,135 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+.directeur_logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.directeur_logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Form styles */
+.login-form {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #005F6C;
+}
+
+.login-form h2 {
+ /* font-family: 'Helvetica', sans-serif;*/
+ /*font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: bold;*/
+  line-height: 150px;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+  margin-bottom: 20px;
+  color: #006699;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input group styles */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #005F6C;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  padding: 12px;
+  background-color: #005F6C;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d5b;
+}
+
+button:active {
+  background-color: #003A38;
+}
+
+/* Error message style */
+.error-message {
+  color: #cc0000;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* Additional styles for links */
+a {
+  color: #005F6C;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #003A38;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .container {
+      max-width: 100%;
+      margin: 50px 10px;
+  }
+
+  .directeur_logo img {
+      max-width: 150px;
+  }
+
+  .login-form h2 {
+      font-size: 28px;
+  }
+}

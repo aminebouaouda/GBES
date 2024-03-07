@@ -1,0 +1,168 @@
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+}
+header {
+    background-color: #004f8b;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}*/
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Sans, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif;*/
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+
+    position: fixed;
+    /* Set the header to be fixed at the top */
+    top: 0;
+    /* Place the header at the top of the viewport */
+    left: 0;
+    /* Place the header at the left of the viewport */
+    width: 100%;
+    /* Set the width of the header to be 100% of the viewport width */
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    /* font-size: Inter,sans-serif;*/
+    font-family: "HCA-Mark-Bold", "Arial", sans-serif;
+    border-bottom: 1px solid rgba(56, 64, 65, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*border-bottom: 1px solid #ccc;*/
+    z-index: 100;
+    /* Set the z-index to ensure the header appears above other elements */
+
+}
+
+/* Add margin to the body to push the content down below the fixed header */
+body {
+    margin-top: 70px;
+    /* Adjust this value based on the height of your fixed header */
+}
+
+
+.logo img {
+    width: 100px;
+    height: 60px;
+    padding-left: 22px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    
+}
+
+
+nav {
+    flex: 1;
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 10px 15px;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #008995;
+    transition: all .1s ease-in;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    color: #008995;
+    transition: all .1s ease-in;
+    font-size: .9rem;
+    white-space: nowrap;
+    margin-right: 1.5rem;
+    font-weight: 400;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.dropdown-content a {
+    color: #000;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+    /*  background-color: #003057;*/
+    background-color: #c9eff0;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Your existing CSS styles */
+
+
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #008995;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/*search ico animation*/
+#search-bar,
+.rechercher-button {
+    display: none;
+}
+
+#search-icon {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
